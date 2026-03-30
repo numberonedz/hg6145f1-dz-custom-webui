@@ -2,12 +2,12 @@
 
 This concerns only the devices available in Algeria, firmware version RP4423
 
-Web UI changes are not permanent and will be reset after a reboot, however, modified settings are saved.  
-(An option to enable persistence may be added later)
+WebUI changes are not permanent and will be reset after a reboot, however, modified settings are saved.  
+An option to enable persistence across reboots is available.
 
 ## What's new
 - New login page + small UI changes
-- Enable Custom DNS
+- Enable Custom DNS (cloudflare, Google...)
 - PPPOE/Voip password retrieval
 - Enable SSID Isolation
 - Enable Custom Dynamic DNS
@@ -15,7 +15,7 @@ Web UI changes are not permanent and will be reset after a reboot, however, modi
 - Enable parental control
 - Enable DLNA/Samba/NAT/ALG
 - Enable System Log view
-- _Schedule reboot feature is broken because of a bug in crontab_
+- TR-069 patch (prevents TR-069 from auto-enabling)
 
 ![ezgif-615983e564351ee7](https://github.com/user-attachments/assets/27a735db-aee6-4637-9ff5-0a8472fc5934)
 
@@ -41,4 +41,4 @@ Patched ajax binary (/cgi-bin folder) and modified html/js/css files are embeded
 
 #### Patched ajax binary:
 -All available AJAX endpoints have been patched to allow access.  
--Encoded PPPOE/VOIP password are returned (decrypted later via fhdecrypt) instead of asterisks (**********)
+-Instead of asterisks (**********), encoded PPPOE/VOIP password are returned (decrypted later via _fhdecrypt_ (javascript)) 
