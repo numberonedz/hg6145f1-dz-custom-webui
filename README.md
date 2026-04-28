@@ -9,10 +9,12 @@ An option to enable persistence across reboots is available.
 <p float="left">
   <img src="https://github.com/user-attachments/assets/76bbcfd8-a463-4f93-bc0e-2d8fdf730dbf" width="300" alt="Login page">
   <img src="https://github.com/user-attachments/assets/60ef7987-85ef-4d55-8935-0fa3200cc379" width="300" alt="home page">
-  <img src="https://github.com/user-attachments/assets/46cb3f0b-17f7-46bd-b23d-e83f05812c3f" width="300" alt="broadband settings">
 </p>
 <p float="left">
+  <img src="https://github.com/user-attachments/assets/46cb3f0b-17f7-46bd-b23d-e83f05812c3f" width="300" alt="broadband settings">
   <img src="https://github.com/user-attachments/assets/d4f08818-bb05-43a6-b48b-5c61a43e8b45" width="300" alt="Voip settings">
+</p>
+<p float="left">
   <img src="https://github.com/user-attachments/assets/bf6b3f02-7b18-47af-8845-df33175d8628" width="300" alt="Application page">
   <img src="https://github.com/user-attachments/assets/0fd3198f-e695-4b3a-9c00-c7ac81eb974c" width="300" alt="Extra options">
 </p>
