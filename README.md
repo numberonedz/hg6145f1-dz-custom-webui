@@ -28,6 +28,7 @@ An option to enable persistence across reboots is available.
 - Enable QoS settings
 - Enable parental control
 - Enable DLNA/Samba/NAT/ALG
+- Router VPN server helper (WireGuard, when firmware support exists)
 - Enable System Log view
 - TR-069 patch (prevents TR-069 from auto-enabling)
 - Schedule reboot option
@@ -43,6 +44,11 @@ An option to enable persistence across reboots is available.
 - Use a usb stick or upload bash script to a writable directory (such as `/var` ) via tftp 
 - Give correct permissions (`chmod +x custom-webui.sh`)
 - Run the script
+
+### Router VPN
+The Router VPN page is available under Application > VPN > Router VPN when installing via `custom-webui.sh`.
+It uses WireGuard because it is the lightest practical full-tunnel VPN for this use case.
+See [router-vpn.md](router-vpn.md) for requirements and setup.
 
 ## How does it work:
 
